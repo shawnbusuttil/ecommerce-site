@@ -1,0 +1,28 @@
+@import "../../vars.scss";
+
+.product-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto;
+
+    > * {
+        margin: $item-spacing;
+        width: calc(#{$item-width} - #{$item-spacing * 2});
+        
+        // This query sequence could be inverted to achieve mobile-first.
+
+        @media (max-width: 1365px) {
+            width: calc(#{33.3%} - #{$item-spacing * 2});
+        }
+
+        @media (max-width: 1179px) {
+            width: calc(#{50%} - #{$item-spacing * 2});
+        }
+
+        @media (max-width: 639px) {
+            width: calc(#{100%} - #{$item-spacing * 2});
+            // height: 640px;
+        }
+    }
+}

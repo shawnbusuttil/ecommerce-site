@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "key": 0,
+      "name": "Peas",
+      "price": 95,
+      "image": "assets/peas.jpg"
+    },
+    {
+      "key": 1,
+      "name": "Eggs",
+      "price": 210,
+      "image": "assets/eggs.jpg"
+    },
+    {
+      "key": 2,
+      "name": "Milk",
+      "price": 130,
+      "image": "assets/milk.jpg"
+    },
+    {
+      "key": 3,
+      "name": "Beans",
+      "price": 73,
+      "image": "assets/beans.jpg"
+    }
+  ]
+}
